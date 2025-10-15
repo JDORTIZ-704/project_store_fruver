@@ -12,10 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_store_fruver">
         <activity
-            android:name=".activities.SplashActivity"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
