@@ -10,12 +10,29 @@
 
     <ImageView
         android:id="@+id/iv_logo_splash"
-        android:layout_width="197dp"
-        android:layout_height="362dp"
+        android:layout_width="201dp"
+        android:layout_height="198dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.036"
+        app:layout_constraintVertical_bias="0.189"
         app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txt_splash"
+        android:layout_width="342dp"
+        android:layout_height="70dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Store Fruver by Juan"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_logo_splash"
+        app:layout_constraintVertical_bias="0.138" />
 </androidx.constraintlayout.widget.ConstraintLayout>
