@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project_store_fruver">
         <activity
+            android:name=".activities.ViewProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CreateUserActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.LoginActivity"
             android:exported="false" />
         <activity

@@ -7,11 +7,10 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.ucompensar.project_store.R
 
-class LoginActivity : AppCompatActivity() {
+class ViewProfileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_login)
-
+        setContentView(R.layout.activity_view_profile)
     }
 }
