@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">VitaVerde</string>
+    <string name="btn_txt_entrar">Entrar</string>
 </resources>

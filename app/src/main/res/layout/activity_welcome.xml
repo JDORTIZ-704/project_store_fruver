@@ -5,6 +5,49 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_general"
     tools:context=".activities.WelcomeActivity">
 
+    <ImageView
+        android:id="@+id/img_canasta_bienvenida"
+        android:layout_width="253dp"
+        android:layout_height="253dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179"
+        app:srcCompat="@drawable/canasta" />
+
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="249dp"
+        android:layout_height="139dp"
+        android:fontFamily="@font/yeon_sung"
+        android:text="Frutas con corazón, verduras con sabor... como en casa."
+        android:textAlignment="center"
+        android:textColor="#53E88B"
+        android:textFontWeight="400"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/img_canasta_bienvenida"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/img_canasta_bienvenida"
+        app:layout_constraintTop_toBottomOf="@+id/img_canasta_bienvenida"
+        app:layout_constraintVertical_bias="0.146" />
+
+    <Button
+        android:id="@+id/btn_entrar"
+        style="@style/Widget.VitaVerde.GradientButton"
+        android:layout_width="157dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="124dp"
+        android:text="@string/btn_txt_entrar"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.853" />
 </androidx.constraintlayout.widget.ConstraintLayout>
