@@ -23,10 +23,30 @@
         android:textColorHint="@color/color_txt_inputs"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="0.405"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.461" />
+        app:layout_constraintVertical_bias="0.551" />
+
+    <EditText
+        android:id="@+id/id_password_createuser"
+        android:layout_width="374dp"
+        android:layout_height="53dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/icon_lock"
+        android:drawablePadding="7dp"
+        android:ems="10"
+        android:hint="@string/txt_input_password"
+        android:inputType="numberPassword"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textColorHint="@color/color_txt_inputs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644" />
 
     <ImageView
         android:id="@+id/imageViewcreateuser"
@@ -57,13 +77,13 @@
 
     <TextView
         android:id="@+id/txt_info_crearuser"
-        android:layout_width="138dp"
-        android:layout_height="24dp"
+        android:layout_width="181dp"
+        android:layout_height="20dp"
         android:layout_marginTop="216dp"
-        android:fontFamily="@font/lato_bold"
+        android:fontFamily="@font/yeon_sung"
         android:gravity="center"
         android:letterSpacing="0.05"
-        android:text="@string/txt_input_iniciarsesión"
+        android:text="@string/txt_info_crearcuenta"
         android:textColor="@color/text_description"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -85,10 +105,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.66" />
+        app:layout_constraintVertical_bias="0.732" />
 
     <Button
         android:id="@+id/btn_google_crearuser"
@@ -99,23 +119,24 @@
         android:paddingEnd="-18dp"
         android:text="@string/txt_btn_google"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/txt_infor_crearuser"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="@+id/txt_infor_crearuser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.755" />
+        app:layout_constraintVertical_bias="0.835" />
 
     <Button
         android:id="@+id/btn_crearuser"
         style="@style/Widget.VitaVerde.GradientButton"
         android:layout_width="157dp"
         android:layout_height="57dp"
-        android:text="@string/btn_txt_entrar"
+        android:text="@string/txt_btn_crearcuenta"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.854" />
+        app:layout_constraintVertical_bias="0.835" />
 
     <TextView
         android:id="@+id/txt_description_createuser"
@@ -136,39 +157,39 @@
         app:layout_constraintTop_toBottomOf="@+id/txt_createuser"
         app:layout_constraintVertical_bias="0.004" />
 
-    <EditText
-        android:id="@+id/id_password_createuser"
-        android:layout_width="374dp"
-        android:layout_height="53dp"
-        android:background="@drawable/custom_input"
-        android:drawableStart="@drawable/icon_lock"
-        android:drawablePadding="7dp"
-        android:ems="10"
-        android:hint="@string/txt_input_password"
-        android:inputType="numberPassword"
-        android:paddingStart="15dp"
-        android:paddingEnd="15dp"
-        android:textColorHint="@color/color_txt_inputs"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.459"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.57" />
-
     <TextView
         android:id="@+id/txt_btn_yatienesunacuenta"
         android:layout_width="177dp"
         android:layout_height="40dp"
+        android:layout_marginBottom="48dp"
         android:fontFamily="@font/yeon_sung"
         android:gravity="center"
-        android:text="@string/txt_btn_firtslogin"
+        android:text="@string/txt_info_yatienescuenta"
         android:textColor="@color/text_description"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/btn_crearuser"
-        app:layout_constraintStart_toStartOf="@+id/btn_crearuser"
-        app:layout_constraintTop_toBottomOf="@+id/btn_crearuser"
-        app:layout_constraintVertical_bias="0.293" />
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/btn_google_crearuser" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="374dp"
+        android:layout_height="53dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/icon_person"
+        android:drawablePadding="7dp"
+        android:ems="10"
+        android:hint="@string/txt_createuser_usuario"
+        android:inputType="text"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textColorHint="@color/color_txt_inputs"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_btn_yatienesunacuenta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.493" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

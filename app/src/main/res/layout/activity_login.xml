@@ -60,7 +60,7 @@
         android:layout_width="138dp"
         android:layout_height="24dp"
         android:layout_marginTop="216dp"
-        android:fontFamily="@font/lato_bold"
+        android:fontFamily="@font/yeon_sung"
         android:gravity="center"
         android:letterSpacing="0.05"
         android:text="@string/txt_input_iniciarsesión"

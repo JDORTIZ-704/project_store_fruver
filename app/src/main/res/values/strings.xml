@@ -8,4 +8,8 @@
     <string name="txt_input_iniciarsesión">Inicia Sesión</string>
     <string name="txt_login_infodescription">Llevamos lo mejor del huerto hasta tu puerta</string>
     <string name="txt_btn_firtslogin">¿Primera vez en VitaVerde? Crea tu cuenta.</string>
+    <string name="txt_createuser_usuario">Usuario</string>
+    <string name="txt_info_crearcuenta">Crea una Cuenta</string>
+    <string name="txt_info_yatienescuenta">¿Ya tienes cuenta? Inicia sesión aquí.</string>
+    <string name="txt_btn_crearcuenta">Crear Cuenta</string>
 </resources>
