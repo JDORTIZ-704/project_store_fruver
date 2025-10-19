@@ -56,6 +56,10 @@ class LoginActivity : AppCompatActivity() {
     private fun mensajetemporalentrar () {
         val toast = Toast.makeText(this, "Bienvenido", Toast.LENGTH_SHORT)
         toast.show()
+
+        Handler(Looper.getMainLooper()).postDelayed({
+            toast.cancel()
+        },1000)
     }
 
 }
