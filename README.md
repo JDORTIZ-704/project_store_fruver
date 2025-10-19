@@ -19,4 +19,5 @@ https://www.figma.com/design/C3P7HLXlTmMy56yEeJ26K1/vitaverde?node-id=0-1&p=f&t=
 ---
 
 ### **Video - Primera entrega**
-*(Agrega aquí el enlace o vista previa del video de la primera entrega)*
+
+https://youtu.be/Ndy1Nx9sw8Y
