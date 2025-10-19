@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">VitaVerde</string>
     <string name="btn_txt_entrar">Entrar</string>
+    <string name="txt_input_login">Dirección de correo electronico</string>
+    <string name="txt_input_password">Contraseña</string>
+    <string name="txt_infor_login2">o Continuar con</string>
+    <string name="txt_btn_google">Google</string>
 </resources>

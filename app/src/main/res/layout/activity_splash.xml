@@ -22,7 +22,7 @@
         app:srcCompat="@drawable/aguacate2" />
 
     <TextView
-        android:id="@+id/txt_splash"
+        android:id="@+id/txt_login"
         android:layout_width="200dp"
         android:layout_height="48dp"
         android:fontFamily="@font/yeon_sung"
@@ -47,10 +47,10 @@
         android:text="Frutas con corazón, verduras con sabor."
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/txt_splash"
+        app:layout_constraintEnd_toEndOf="@+id/txt_login"
         app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="@+id/txt_splash"
-        app:layout_constraintTop_toBottomOf="@+id/txt_splash"
+        app:layout_constraintStart_toStartOf="@+id/txt_login"
+        app:layout_constraintTop_toBottomOf="@+id/txt_login"
         app:layout_constraintVertical_bias="0.157" />
 
     <TextView

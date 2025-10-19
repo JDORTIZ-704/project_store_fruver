@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Degradado radial desde el centro -->
+    <gradient
+        android:type="radial"
+        android:centerX="50%"
+        android:centerY="60%"
+        android:gradientRadius="400dp"
+        android:startColor="#F8F2F2"
+        android:endColor="#FFFFFFFF"
+        android:useLevel="false" />
+</shape>
