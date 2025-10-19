@@ -11,7 +11,7 @@
         <item name="rippleColor">@android:color/transparent</item>
         <item name="android:background">@drawable/btn_gradiente</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:fontFamily">@font/yeon_sung</item>
     </style>
 

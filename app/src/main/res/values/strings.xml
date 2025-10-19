@@ -5,4 +5,7 @@
     <string name="txt_input_password">Contraseña</string>
     <string name="txt_infor_login2">o Continuar con</string>
     <string name="txt_btn_google">Google</string>
+    <string name="txt_input_iniciarsesión">Inicia Sesión</string>
+    <string name="txt_login_infodescription">Llevamos lo mejor del huerto hasta tu puerta</string>
+    <string name="txt_btn_firtslogin">¿Primera vez en VitaVerde? Crea tu cuenta.</string>
 </resources>

@@ -8,69 +8,6 @@
     android:background="@drawable/bg_ofuscado"
     tools:context=".activities.LoginActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="109dp"
-        android:layout_height="109dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.115"
-        app:srcCompat="@drawable/aguacate2" />
-
-    <TextView
-        android:id="@+id/txt_login"
-        android:layout_width="155dp"
-        android:layout_height="50dp"
-        android:fontFamily="@font/yeon_sung"
-        android:gravity="center"
-        android:text="VitaVerde"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.014" />
-
-    <TextView
-        android:id="@+id/txt_description_login"
-        android:layout_width="325dp"
-        android:layout_height="17dp"
-        android:fontFamily="@font/yeon_sung"
-        android:gravity="center"
-        android:letterSpacing="0.05"
-        android:text="Llevamos lo mejor del huerto hasta tu puerta"
-        android:textColor="@color/text_description"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/txt_login"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="@+id/txt_login"
-        app:layout_constraintTop_toBottomOf="@+id/txt_login"
-        app:layout_constraintVertical_bias="0.016" />
-
-    <TextView
-        android:id="@+id/txt_inicia_sesion"
-        android:layout_width="138dp"
-        android:layout_height="24dp"
-        android:layout_marginTop="216dp"
-        android:fontFamily="@font/lato_bold"
-        android:gravity="center"
-        android:letterSpacing="0.05"
-        android:text="Inicia Sesión"
-        android:textColor="@color/text_description"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/txt_description_login"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="@+id/txt_description_login"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.169" />
-
     <EditText
         android:id="@+id/id_email_login"
         android:layout_width="374dp"
@@ -86,8 +23,116 @@
         android:textColorHint="@color/color_txt_inputs"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="109dp"
+        android:layout_height="109dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073"
+        app:srcCompat="@drawable/aguacate2" />
+
+    <TextView
+        android:id="@+id/txt_login"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/yeon_sung"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <TextView
+        android:id="@+id/txt_inicia_sesion"
+        android:layout_width="138dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="216dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="center"
+        android:letterSpacing="0.05"
+        android:text="@string/txt_input_iniciarsesión"
+        android:textColor="@color/text_description"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txt_description_login"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/txt_description_login"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <TextView
+        android:id="@+id/txt_infor_login"
+        android:layout_width="122dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/yeon_sung"
+        android:gravity="center"
+        android:text="@string/txt_infor_login2"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66" />
+
+    <Button
+        android:id="@+id/btn_google_login"
+        style="@style/Widget.LoginGoogle.SimpleButton"
+        android:layout_width="157dp"
+        android:layout_height="57dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="-18dp"
+        android:text="@string/txt_btn_google"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txt_infor_login"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="@+id/txt_infor_login"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755" />
+
+    <Button
+        android:id="@+id/btn_entrar_login"
+        style="@style/Widget.VitaVerde.GradientButton"
+        android:layout_width="157dp"
+        android:layout_height="57dp"
+        android:text="@string/btn_txt_entrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.854" />
+
+    <TextView
+        android:id="@+id/txt_description_login"
+        android:layout_width="325dp"
+        android:layout_height="17dp"
+        android:fontFamily="@font/yeon_sung"
+        android:gravity="center"
+        android:letterSpacing="0.05"
+        android:text="@string/txt_login_infodescription"
+        android:textColor="@color/text_description"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/txt_login"
+        app:layout_constraintStart_toStartOf="@+id/txt_login"
+        app:layout_constraintTop_toBottomOf="@+id/txt_login"
+        app:layout_constraintVertical_bias="0.019" />
 
     <EditText
         android:id="@+id/id_password_login"
@@ -104,37 +149,23 @@
         android:textColorHint="@color/color_txt_inputs"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.609" />
+        app:layout_constraintVertical_bias="0.57" />
 
     <TextView
-        android:id="@+id/txt_infor_login"
-        android:layout_width="124dp"
-        android:layout_height="41dp"
+        android:id="@+id/txt_btn_primeringreso"
+        android:layout_width="177dp"
+        android:layout_height="40dp"
         android:fontFamily="@font/yeon_sung"
         android:gravity="center"
-        android:text="@string/txt_infor_login2"
-        android:textColor="@color/black"
-        android:textSize="20sp"
+        android:text="@string/txt_btn_firtslogin"
+        android:textColor="@color/text_description"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.698" />
+        app:layout_constraintEnd_toEndOf="@+id/btn_entrar_login"
+        app:layout_constraintStart_toStartOf="@+id/btn_entrar_login"
+        app:layout_constraintTop_toBottomOf="@+id/btn_entrar_login"
+        app:layout_constraintVertical_bias="0.293" />
 
-    <Button
-        android:id="@+id/btn_google"
-        style="@style/Widget.LoginGoogle.SimpleButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/txt_btn_google"
-        android:drawableStart="@drawable/icon_lock"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/txt_infor_login"
-        app:layout_constraintStart_toStartOf="@+id/txt_infor_login"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.792" />
 </androidx.constraintlayout.widget.ConstraintLayout>
