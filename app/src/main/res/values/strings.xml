@@ -14,5 +14,9 @@
     <string name="btn_Create_Account">Crear Cuenta</string>
     <string name="txt_Informative_Splash_1">Frutas con corazón, verduras con sabor.</string>
     <string name="txt_Informative_Splash_2">Diseño by Vitaverde</string>
-    <string name="txt_Informative_Welcome_1">Frutas con corazón, verduras con sabor... como en casa.</string>stat
+    <string name="txt_Informative_Welcome_1">Frutas con corazón, verduras con sabor... como en casa.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Fisrt Fragment favorites section</string>
+    <string name="hello_blank_fragment_2">Second Fragment search section</string>
+    <string name="hello_blank_fragment_3">three Fragment menu section</string>
 </resources>
