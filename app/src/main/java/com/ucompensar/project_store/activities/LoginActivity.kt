@@ -9,8 +9,6 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.ucompensar.project_store.R
 
 class LoginActivity : AppCompatActivity() {
@@ -19,33 +17,32 @@ class LoginActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_login)
 
-        val btn_primeringreso: TextView = findViewById(R.id.txt_btn_primeringreso)
+        val createUserButton: TextView = findViewById(R.id.btn_login_to_register)
 
-        btn_primeringreso.setOnClickListener {
+        createUserButton.setOnClickListener {
             val intent = Intent(this, CreateUserActivity::class.java)
             startActivity(intent)
             finish()
         }
 
-        val btn_google_login: Button = findViewById(R.id.btn_google_login)
+        val googleButton: Button = findViewById(R.id.btn_google_get_into_user)
 
-        btn_google_login.setOnClickListener {
-            mensajetemporalgoogle()
+        googleButton.setOnClickListener {
+            temporaryMessageEnterGoogle()
         }
 
-        val btn_ingreso: Button = findViewById(R.id.btn_entrar_login)
+        val loginButton: Button = findViewById(R.id.btn_create_user_login)
 
-        btn_ingreso.setOnClickListener {
+        loginButton.setOnClickListener {
             val intent = Intent(this, SplashActivity::class.java)
             startActivity(intent)
             finish()
-
-            mensajetemporalentrar()
+            temporaryMessageEnter()
         }
     }
 
-    private fun mensajetemporalgoogle () {
-        val toast = Toast.makeText(this, "Ingreso Google", Toast.LENGTH_SHORT)
+    private fun temporaryMessageEnterGoogle () {
+        val toast = Toast.makeText(this, "Google Login", Toast.LENGTH_SHORT)
         toast.show()
 
         Handler(Looper.getMainLooper()).postDelayed({
@@ -53,8 +50,8 @@ class LoginActivity : AppCompatActivity() {
         },1000)
     }
 
-    private fun mensajetemporalentrar () {
-        val toast = Toast.makeText(this, "Bienvenido", Toast.LENGTH_SHORT)
+    private fun temporaryMessageEnter () {
+        val toast = Toast.makeText(this, "Welcome", Toast.LENGTH_SHORT)
         toast.show()
 
         Handler(Looper.getMainLooper()).postDelayed({

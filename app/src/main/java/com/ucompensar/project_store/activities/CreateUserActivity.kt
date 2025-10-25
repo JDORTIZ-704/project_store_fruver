@@ -9,10 +9,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.ucompensar.project_store.R
-import org.jetbrains.annotations.ApiStatus
 
 class CreateUserActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,30 +17,33 @@ class CreateUserActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_create_user)
 
-        val btncrearcuenta: Button = findViewById(R.id.btn_crearuser)
-        btncrearcuenta.setOnClickListener {
-            mensajecrearcuenta ()
-            val intentbtncrearcuenta = Intent(this, LoginActivity::class.java)
-            startActivity(intentbtncrearcuenta)
+        // Buttons
+
+        val createAccountButton: Button = findViewById(R.id.btn_create_user_register)
+        createAccountButton.setOnClickListener {
+            val intentCreateAccountButton = Intent(this, LoginActivity::class.java)
+            startActivity(intentCreateAccountButton)
             finish()
+            temporaryMessageCreateAccount()
         }
 
-        val btngooglecrear: Button = findViewById(R.id.btn_google_crearuser)
-        btngooglecrear.setOnClickListener {
-            mensajetemportalgooglecrear()
+        val googleRegistrationButton: Button = findViewById(R.id.btn_google_create_user)
+        googleRegistrationButton.setOnClickListener {
+            temporaryMessageGoogleLogin()
         }
 
-        val btnyatienescuenta: TextView = findViewById(R.id.txt_btn_yatienesunacuenta)
-
-        btnyatienescuenta.setOnClickListener {
-        val intentbtnyatienescuenta = Intent(this, LoginActivity::class.java)
-        startActivity(intentbtnyatienescuenta)
+        val loginBackButton: TextView = findViewById(R.id.btn_register_to_login)
+        loginBackButton.setOnClickListener {
+        val intentLoginBackButton = Intent(this, LoginActivity::class.java)
+        startActivity(intentLoginBackButton)
         finish()
         }
     }
 
-    private fun mensajetemportalgooglecrear() {
-        val toast = Toast.makeText(this, "Registro Google", Toast.LENGTH_SHORT)
+    // Temporary messages
+
+    private fun temporaryMessageGoogleLogin() {
+        val toast = Toast.makeText(this, "Google registration", Toast.LENGTH_SHORT)
         toast.show()
 
         Handler(Looper.getMainLooper()).postDelayed({
@@ -51,8 +51,8 @@ class CreateUserActivity : AppCompatActivity() {
         }, 1000)
     }
 
-    private fun mensajecrearcuenta () {
-        val toast = Toast.makeText(this, "Registro Exitoso", Toast.LENGTH_SHORT)
+    private fun temporaryMessageCreateAccount () {
+        val toast = Toast.makeText(this, "Successful registration", Toast.LENGTH_SHORT)
         toast.show()
 
         Handler(Looper.getMainLooper()).postDelayed({

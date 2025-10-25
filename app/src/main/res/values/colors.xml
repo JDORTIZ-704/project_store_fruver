@@ -5,7 +5,7 @@
     <color name="background_splash">#A7D97B</color>
     <color name="background_general">#FFFFFFFF</color>
     <color name="text_description">#53E88B</color>
-    <color name="reborder_gris">#B8AEAE</color>
+    <color name="gray_border">#B8AEAE</color>
     <color name="color_txt_inputs">#D3D0D0</color>
 
 </resources>
