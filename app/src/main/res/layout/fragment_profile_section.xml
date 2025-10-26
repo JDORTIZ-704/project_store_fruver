@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FavoritesSection">
+    tools:context=".ProfileSection">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="244dp"
-        android:layout_height="134dp"
+        android:layout_width="312dp"
+        android:layout_height="176dp"
         android:gravity="center"
-        android:text="@string/Fragment_Home"
+        android:text="@string/Fragment_Perfil"
         android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

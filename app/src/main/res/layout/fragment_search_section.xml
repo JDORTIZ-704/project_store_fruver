@@ -11,7 +11,7 @@
         android:layout_width="298dp"
         android:layout_height="118dp"
         android:gravity="center"
-        android:text="@string/hello_blank_fragment_3"
+        android:text="@string/Fragment_Buscar"
         android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
