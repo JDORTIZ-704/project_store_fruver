@@ -15,10 +15,14 @@
     <string name="txt_Informative_Splash_1">Frutas con corazón, verduras con sabor.</string>
     <string name="txt_Informative_Splash_2">Diseño by Vitaverde</string>
     <string name="txt_Informative_Welcome_1">Frutas con corazón, verduras con sabor... como en casa.</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="Fragment_Home">Pantalla Home</string>
     <string name="Fragment_Canasta">Pantalla Canasta</string>
     <string name="Fragment_Buscar">Pantalla Buscar</string>
     <string name="Fragment_Menu">Pantalla Menú</string>
     <string name="Fragment_Perfil">Pantalla Perfil</string>
+    <string name="txt_BottomNavigationView_Home">Home</string>
+    <string name="txt_BottomNavigationView_Canasta">Canasta</string>
+    <string name="txt_BottomNavigationView_Buscar">Buscar</string>
+    <string name="txt_BottomNavigationView_Menu">Menú</string>
+    <string name="txt_BottomNavigationView_Pefil">Perfil</string>
 </resources>

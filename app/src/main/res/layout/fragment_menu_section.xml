@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MenuSection">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="244dp"
         android:layout_height="134dp"
